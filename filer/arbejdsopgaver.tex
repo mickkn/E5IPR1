@@ -1,1 +1,31 @@
 \chapter{Arbejdsopgaver}
+
+\section{Brystpumpe}
+
+Jeg startede mine første praktikdage med at finde mig til rette på kontoret og så ellers begynde at læse alt dokumentation og kode til brystpumpeprojektet. Brystpumpeprojektet er et projekt lavet for et firma tæt knyttet til Skejby Sygehus, og består af to slags elektroniske brystpumper. En 230 V version til hospitalsbrug og en 6 V batteridrevet version til hjemmebrug. 
+
+Begge pumper er bygget op om samme microcontroller og har stort set ens virkemåde, dog har hospitalspumpen to separate pumper med hver deres OLED display, der fortæller brugeren hvordan og hvor lang tid den pumper. Hjemmeversionen har kun én pumpe og en lysdiode til batteriindikation m.m.
+
+Brystpumpeprojektet har været i gang siden 2014 og elektronikken er stort set kun lavet af virksomhedens praktikanter fra Ingeniørhøjskolen, dvs. printlayout og kode. Så det har været et større arbejde at få et overblik over koden, da det var lidt sparsomt med kommentarer og dokumentation.
+
+Plastikdelene står kunden selv for at tegne og lave, dog i tæt samarbejde med ECT A/S. Derfor er der en del møder og snakke med kunden omkring funktioner og retningslinjer.
+
+Der har været en del møder omkring hvorledes brystpumpen skal leve op til kravene for medicinske produkter, som er meget strenge. På trods af at jeg ikke har været direkte med til disse møder, har vi den sidste tid, dokumenteret i vildskab for at opretholde den høje standard for dokumentation af medicinske produkter. Dette er nyt for virksomheden, men helt sikkert en ting der vil kunne gavne dem i fremtiden at blive god til.
+
+Størstedelen af tiden hos ECT A/S er gået med at optimere brystpumpen bedst muligt. Så der er gået en del tid med at kode C i Atmel Studio og tegne print i Orcad, samt dokumentere arbejdet. Og ikke mindst fejlsøge og teste print der blev produceret hos BHE i Horsens. I min tid i virksomheden har der været udskiftning af motorer hele tre gange, da det skulle lykkedes at få det bedste ud af de billigste motorer fra Kina.
+
+\subsection{EMC}
+
+Brystpumpen skulle EMC-testes hos EMC-Jens i Silkeborg derfor har vi været hos Jens et par gange med pumperne, efter første gang sammen med Henrik, fik jeg lov til selv at tage derud den anden gange.
+
+Der havde været nogle problemer med Hospitalspumpen som gjorde at der skulle testes igen efter fejlen var blevet rettet.
+
+\section{AMG}
+
+ECT A/S har i samarbejde med en forsker/dyrlæge fremstillet et måleapparat til måling af hestes muskelaktivitet med akustiske målinger. Dette produkt har dog været færdiggjort inden jeg startede, dog skulle der opstilles test udstyr i fabrikken der skulle producere sensorer til måleapparatet. Derfor skulle der laves nogle ændringer i sensor-koden, dette fik jeg ansvaret for. Sensoren var en PIC processor og var kodet i C. Og måleapparatet en Beaglebone Linux ARM computer, lige som dem vi bruger på skolen. 
+
+\section{Infusionspumpe}
+
+De sidste to måneder praktikperioden har jeg arbejdet med en kommende infusionspumpe til ambulancer. Pumpen skal udvikles for den samme kunde som har brystpumpen.
+
+Oplysningerne har indtil videre været lidt sparsomme, da der skulle forhandles støtte hjem fra Kina. Men jeg har dog startet godt op på projektet, som består af en microcontroller, to motorer, 3 knapper og et OLED display. Så det minder en del om brystpumpen dog med nogle nye udfordringer.
