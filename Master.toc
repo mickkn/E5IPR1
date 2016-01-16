@@ -9,5 +9,6 @@
 \contentsline {subsection}{\numberline {3.1.1}EMC}{6}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}AMG}{7}{section.3.2}
 \contentsline {section}{\numberline {3.3}Infusionspumpe}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}Yderligere}{7}{section.3.4}
 \contentsline {chapter}{\chapternumberline {4}Kollegaer og forhold}{8}{chapter.4}
 \contentsline {chapter}{\chapternumberline {5}Konklusion}{9}{chapter.5}

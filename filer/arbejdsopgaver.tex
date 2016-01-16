@@ -2,30 +2,36 @@
 
 \section{Brystpumpe}
 
-Jeg startede mine første praktikdage med at finde mig til rette på kontoret og så ellers begynde at læse alt dokumentation og kode til brystpumpeprojektet. Brystpumpeprojektet er et projekt lavet for et firma tæt knyttet til Skejby Sygehus, og består af to slags elektroniske brystpumper. En 230 V version til hospitalsbrug og en 6 V batteridrevet version til hjemmebrug. 
+Jeg startede mine første praktikdage med at finde mig til rette på kontoret, hvorefter jeg begyndte at læse alt dokumentation og kode til brystpumpeprojektet. Brystpumpeprojektet er et projekt lavet for et firma tæt knyttet til Skejby Sygehus, og det består af to slags elektroniske brystpumper; en 230 V version til hospitalsbrug og en 6 V batteridrevet version til hjemmebrug. 
 
-Begge pumper er bygget op om samme microcontroller og har stort set ens virkemåde, dog har hospitalspumpen to separate pumper med hver deres OLED display, der fortæller brugeren hvordan og hvor lang tid den pumper. Hjemmeversionen har kun én pumpe og en lysdiode til batteriindikation m.m.
+Begge pumper er bygget op om samme microcontroller og har stort set ens virkemåde. Hospitalspumpen har dog to separate pumper med hver deres OLED-display, der fortæller brugeren, hvordan og hvor lang tid, den pumper. Hjemmeversionen har kun én pumpe og en lysdiode til batteriindikation m.m.
 
-Brystpumpeprojektet har været i gang siden 2014 og elektronikken er stort set kun lavet af virksomhedens praktikanter fra Ingeniørhøjskolen, dvs. printlayout og kode. Så det har været et større arbejde at få et overblik over koden, da det var lidt sparsomt med kommentarer og dokumentation.
+Brystpumpeprojektet har været i gang siden 2014, og elektronikken er stort set kun lavet af virksomhedens praktikanter fra Ingeniørhøjskolen, dvs. printlayout og kode. Det har derfor været et større arbejde at få et overblik over koden, da det var lidt sparsomt med kommentarer og dokumentation.
 
-Plastikdelene står kunden selv for at tegne og lave, dog i tæt samarbejde med ECT A/S. Derfor er der en del møder og snakke med kunden omkring funktioner og retningslinjer.
+Plastikdelene står kunden selv for at tegne og lave - dog i tæt samarbejde med ECT A/S. Der er derfor en del møder og samtaler med kunden omkring funktioner og retningslinjer.
 
-Der har været en del møder omkring hvorledes brystpumpen skal leve op til kravene for medicinske produkter, som er meget strenge. På trods af at jeg ikke har været direkte med til disse møder, har vi den sidste tid, dokumenteret i vildskab for at opretholde den høje standard for dokumentation af medicinske produkter. Dette er nyt for virksomheden, men helt sikkert en ting der vil kunne gavne dem i fremtiden at blive god til.
+Der har været en del møder omkring, hvorledes brystpumpen skal leve op til medicinske produkters krav, som er meget strenge. På trods af at jeg ikke har været direkte med til disse møder, har vi den sidste tid dokumenteret på højtryk for at opretholde den høje standard for dokumentation af medicinske produkter. Dette er nyt for virksomheden, men det er helt sikkert en erfaring, som vil kunne gavne dem i fremtiden at være god til.
 
-Størstedelen af tiden hos ECT A/S er gået med at optimere brystpumpen bedst muligt. Så der er gået en del tid med at kode C i Atmel Studio og tegne print i Orcad, samt dokumentere arbejdet. Og ikke mindst fejlsøge og teste print der blev produceret hos BHE i Horsens. I min tid i virksomheden har der været udskiftning af motorer hele tre gange, da det skulle lykkedes at få det bedste ud af de billigste motorer fra Kina.
+Størstedelen af min tid hos ECT A/S er gået med at optimere brystpumpen bedst muligt. Der er gået en del tid med at kode C i Atmel Studio og tegne print i Orcad samt med at dokumentere arbejdet. Der er også gået meget tid med at fejlsøge og teste print, der blev produceret hos BHE i Horsens. I min tid i virksomheden har der været udskiftning af steppermotorer hele tre gange, da det skulle lykkes at få det bedste ud af de billigste motorer fra Kina.
 
 \subsection{EMC}
 
-Brystpumpen skulle EMC-testes hos EMC-Jens i Silkeborg derfor har vi været hos Jens et par gange med pumperne, efter første gang sammen med Henrik, fik jeg lov til selv at tage derud den anden gange.
+Brystpumpen skulle EMC-testes hos EMC-Jens i Silkeborg, og derfor har vi været hos Jens et par gange med pumperne. Efter første test sammen med Henrik fik jeg lov til selv at tage derud anden gang.
 
-Der havde været nogle problemer med Hospitalspumpen som gjorde at der skulle testes igen efter fejlen var blevet rettet.
+Der havde været nogle problemer med Hospitalspumpen, som gjorde, at der skulle testes igen, efter fejlen var blevet rettet.
 
 \section{AMG}
 
-ECT A/S har i samarbejde med en forsker/dyrlæge fremstillet et måleapparat til måling af hestes muskelaktivitet med akustiske målinger. Dette produkt har dog været færdiggjort inden jeg startede, dog skulle der opstilles test udstyr i fabrikken der skulle producere sensorer til måleapparatet. Derfor skulle der laves nogle ændringer i sensor-koden, dette fik jeg ansvaret for. Sensoren var en PIC processor og var kodet i C. Og måleapparatet en Beaglebone Linux ARM computer, lige som dem vi bruger på skolen. 
+ECT A/S har i samarbejde med en forsker/dyrlæge fremstillet et måleapparat til måling af hestes muskelaktivitet med akustiske målinger. Dette produkt har dog været færdiggjort, inden jeg startede; dog skulle der opstilles testudstyr i fabrikken, der skulle producere sensorer til måleapparatet. Derfor skulle der laves nogle ændringer i sensorkoden og dette fik jeg ansvaret for. Sensoren var en PIC-processor og var kodet i C. Måleapparatet er en Beaglebone Linux computer lige som dem, vi bruger på studiet. 
 
 \section{Infusionspumpe}
 
-De sidste to måneder praktikperioden har jeg arbejdet med en kommende infusionspumpe til ambulancer. Pumpen skal udvikles for den samme kunde som har brystpumpen.
+De sidste to måneder i praktikperioden har jeg arbejdet med en kommende infusionspumpe til ambulancer. Pumpen skal udvikles for den samme kunde, som ejer brystpumpen.
 
-Oplysningerne har indtil videre været lidt sparsomme, da der skulle forhandles støtte hjem fra Kina. Men jeg har dog startet godt op på projektet, som består af en microcontroller, to motorer, 3 knapper og et OLED display. Så det minder en del om brystpumpen dog med nogle nye udfordringer.
+Oplysningerne har indtil videre været lidt sparsomme, da der skulle forhandles støtte hjem fra Kina. Jeg er dog startet godt op på projektet, som består af en microcontroller, to motorer, tre trykknapper og et OLED-display. Det minder dermed en del om brystpumpen dog med nogle nye udfordringer.
+
+\section{Yderligere}
+
+Der har i perioder, især i starten af opholdet, været tidspunkter hvor der har manglet lidt arbejdsopgaver. I de situationer, har jeg givet udtryk for dette. Og så har der altid været en opgave at gå i gang med.
+
+Der er snak om et projekt hvor bluetooth kunne være den bærende kommunikation. Dertil har de købt et Bluetooth Low Energy 4.0 devkit hjem, som jeg har haft til opgave at få til at kommunikere med en Android mobiltelefon, det medførte at der skulle undersøges for hvordan bluetooth kommunikere og kodes og dermed også hvordan man laver Android Apps. En større opgave, som jeg har forsøgt mig lidt med og er blevet klogere på.
