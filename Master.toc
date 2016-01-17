@@ -1,7 +1,7 @@
 \changetocdepth {2}
 \select@language {danish}
 \contentsline {chapter}{\chapternumberline {1}Indledning}{2}{chapter.1}
-\contentsline {chapter}{\chapternumberline {2}Virksomheden}{3}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}Virksomhedsanalyse}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Produkter}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}V\IeC {\ae }kst}{5}{section.2.2}
 \contentsline {chapter}{\chapternumberline {3}Arbejdsopgaver}{6}{chapter.3}
